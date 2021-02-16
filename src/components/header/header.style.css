@@ -1,0 +1,38 @@
+header {
+  background: whitesmoke;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  border-bottom: 20px solid rgb(236, 236, 236);
+  width: 85%;
+  margin: 1rem auto;
+}
+
+.header h1 {
+  font-weight: 100;
+  letter-spacing: 4px;
+  color: lightgrey;
+  font-size: 2.4rem;
+  text-shadow: 1px -1px grey;
+  font-style: italic;
+  margin: 0.5rem auto;
+}
+
+.header h1 span {
+  font-size: 2.7rem;
+  color: lightgrey;
+  text-shadow: 2px -1px grey;
+}
+
+.header img {
+  width: 100%;
+  object-fit: contain;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.header img:hover {
+  transform: scale(0.9);
+}

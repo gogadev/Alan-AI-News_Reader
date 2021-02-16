@@ -1,0 +1,96 @@
+.news-card {
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card-body {
+  outline: 1px solid lightgrey;
+  height: 480px;
+  margin-bottom: 1rem;
+}
+
+.card-body img {
+  width: 75%;
+  height: 150px;
+}
+
+.card-text {
+  height: 220px;
+}
+
+.title {
+  letter-spacing: 1px;
+  color: rgb(160, 160, 160);
+  font-weight: 100;
+  padding: 0.3rem 0.2rem;
+}
+
+.details {
+  height: 300px;
+}
+
+.source {
+  margin: 0.3rem auto;
+  color: grey;
+  font-weight: 200;
+  background: rgba(248, 247, 247, 0.938);
+  padding: 0.1rem;
+  text-shadow: -1px grey;
+  border-bottom: 5px solid rgb(231, 231, 231);
+}
+
+.date {
+  opacity: 0.7;
+  font-style: italic;
+  margin: 0.2rem auto;
+}
+
+.description {
+  padding: 0.3rem 0.9rem;
+  margin: 0.3rem auto;
+  font-style: italic;
+}
+
+.button {
+  width: 100%;
+  border: none;
+  padding: 0.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 2rem auto;
+  outline: none;
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: 2px;
+  transition: all 1.5s ease;
+  color: rgba(143, 142, 142, 0.808);
+}
+
+.button:hover {
+  background: none;
+}
+
+.text-secondary {
+  color: rgb(179, 179, 179);
+  font-weight: 200;
+  padding-bottom: 0.7rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-body {
+    height: 530px;
+  }
+  .button {
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 996px) {
+  .card-body {
+    height: 580px;
+  }
+  .button {
+    margin-top: 7rem;
+  }
+}
